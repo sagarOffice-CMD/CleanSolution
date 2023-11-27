@@ -19,11 +19,11 @@ namespace Application.StudentCQ.Commands
         {
             _DbContext = DbContext;
         }
-
+        // fdfdfd
         public async Task<string> Handle(GetStudentById request, CancellationToken cancellationToken)
         {
             var stud = _DbContext.Student.Where(s => s.Id == request.Id).FirstOrDefaultAsync();
-            await _DbContext.Student.ToListAsync();
+            await _DbContext.Student.ToListAsync();  
             return "successfull";
             
             
