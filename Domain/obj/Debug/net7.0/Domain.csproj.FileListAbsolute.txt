@@ -1,0 +1,22 @@
+C:\Users\Admin\source\repos\CleanSolution\Domain\bin\Debug\net7.0\Domain.deps.json
+C:\Users\Admin\source\repos\CleanSolution\Domain\bin\Debug\net7.0\Domain.dll
+C:\Users\Admin\source\repos\CleanSolution\Domain\bin\Debug\net7.0\Domain.pdb
+C:\Users\Admin\source\repos\CleanSolution\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\CleanSolution\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\CleanSolution\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+C:\Users\Admin\source\repos\CleanSolution\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\CleanSolution\Domain\obj\Debug\net7.0\Domain.dll
+C:\Users\Admin\source\repos\CleanSolution\Domain\obj\Debug\net7.0\refint\Domain.dll
+C:\Users\Admin\source\repos\CleanSolution\Domain\obj\Debug\net7.0\Domain.pdb
+C:\Users\Admin\source\repos\CleanSolution\Domain\obj\Debug\net7.0\ref\Domain.dll
+D:\dayuser\sagar khandate\personal\c#\CleanSolution\CleanSolution\Domain\bin\Debug\net7.0\Domain.deps.json
+D:\dayuser\sagar khandate\personal\c#\CleanSolution\CleanSolution\Domain\bin\Debug\net7.0\Domain.dll
+D:\dayuser\sagar khandate\personal\c#\CleanSolution\CleanSolution\Domain\bin\Debug\net7.0\Domain.pdb
+D:\dayuser\sagar khandate\personal\c#\CleanSolution\CleanSolution\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\dayuser\sagar khandate\personal\c#\CleanSolution\CleanSolution\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+D:\dayuser\sagar khandate\personal\c#\CleanSolution\CleanSolution\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+D:\dayuser\sagar khandate\personal\c#\CleanSolution\CleanSolution\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+D:\dayuser\sagar khandate\personal\c#\CleanSolution\CleanSolution\Domain\obj\Debug\net7.0\Domain.dll
+D:\dayuser\sagar khandate\personal\c#\CleanSolution\CleanSolution\Domain\obj\Debug\net7.0\refint\Domain.dll
+D:\dayuser\sagar khandate\personal\c#\CleanSolution\CleanSolution\Domain\obj\Debug\net7.0\Domain.pdb
+D:\dayuser\sagar khandate\personal\c#\CleanSolution\CleanSolution\Domain\obj\Debug\net7.0\ref\Domain.dll
