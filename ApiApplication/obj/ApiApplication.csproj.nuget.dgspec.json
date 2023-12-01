@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolution\\CleanSolution\\ApiApplication\\ApiApplication.csproj": {}
+    "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolutionEditedProject\\CleanSolution\\ApiApplication\\ApiApplication.csproj": {}
   },
   "projects": {
-    "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolution\\CleanSolution\\ApiApplication\\ApiApplication.csproj": {
+    "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolutionEditedProject\\CleanSolution\\ApiApplication\\ApiApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolution\\CleanSolution\\ApiApplication\\ApiApplication.csproj",
+        "projectUniqueName": "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolutionEditedProject\\CleanSolution\\ApiApplication\\ApiApplication.csproj",
         "projectName": "ApiApplication",
-        "projectPath": "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolution\\CleanSolution\\ApiApplication\\ApiApplication.csproj",
+        "projectPath": "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolutionEditedProject\\CleanSolution\\ApiApplication\\ApiApplication.csproj",
         "packagesPath": "C:\\Users\\sagarkhandate\\.nuget\\packages\\",
-        "outputPath": "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolution\\CleanSolution\\ApiApplication\\obj\\",
+        "outputPath": "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolutionEditedProject\\CleanSolution\\ApiApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sagarkhandate\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolution\\CleanSolution\\Application\\Application.csproj": {
-                "projectPath": "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolution\\CleanSolution\\Application\\Application.csproj"
+              "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolutionEditedProject\\CleanSolution\\Application\\Application.csproj": {
+                "projectPath": "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolutionEditedProject\\CleanSolution\\Application\\Application.csproj"
               },
-              "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolution\\CleanSolution\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolution\\CleanSolution\\Infrastructure\\Infrastructure.csproj"
+              "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolutionEditedProject\\CleanSolution\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolutionEditedProject\\CleanSolution\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -47,6 +47,26 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.8.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.8.1, )"
+            },
             "MediatR": {
               "target": "Package",
               "version": "[12.2.0, )"
@@ -89,14 +109,14 @@
         }
       }
     },
-    "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolution\\CleanSolution\\Application\\Application.csproj": {
+    "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolutionEditedProject\\CleanSolution\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolution\\CleanSolution\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolutionEditedProject\\CleanSolution\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolution\\CleanSolution\\Application\\Application.csproj",
+        "projectPath": "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolutionEditedProject\\CleanSolution\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\sagarkhandate\\.nuget\\packages\\",
-        "outputPath": "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolution\\CleanSolution\\Application\\obj\\",
+        "outputPath": "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolutionEditedProject\\CleanSolution\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sagarkhandate\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -113,8 +133,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolution\\CleanSolution\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolution\\CleanSolution\\Domain\\Domain.csproj"
+              "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolutionEditedProject\\CleanSolution\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolutionEditedProject\\CleanSolution\\Domain\\Domain.csproj"
               }
             }
           }
@@ -129,6 +149,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.8.1, )"
+            },
             "MediatR": {
               "target": "Package",
               "version": "[12.2.0, )"
@@ -158,14 +186,14 @@
         }
       }
     },
-    "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolution\\CleanSolution\\Domain\\Domain.csproj": {
+    "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolutionEditedProject\\CleanSolution\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolution\\CleanSolution\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolutionEditedProject\\CleanSolution\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolution\\CleanSolution\\Domain\\Domain.csproj",
+        "projectPath": "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolutionEditedProject\\CleanSolution\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\sagarkhandate\\.nuget\\packages\\",
-        "outputPath": "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolution\\CleanSolution\\Domain\\obj\\",
+        "outputPath": "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolutionEditedProject\\CleanSolution\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sagarkhandate\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -213,14 +241,14 @@
         }
       }
     },
-    "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolution\\CleanSolution\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolutionEditedProject\\CleanSolution\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolution\\CleanSolution\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolutionEditedProject\\CleanSolution\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolution\\CleanSolution\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolutionEditedProject\\CleanSolution\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\sagarkhandate\\.nuget\\packages\\",
-        "outputPath": "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolution\\CleanSolution\\Infrastructure\\obj\\",
+        "outputPath": "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolutionEditedProject\\CleanSolution\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sagarkhandate\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -237,8 +265,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolution\\CleanSolution\\Application\\Application.csproj": {
-                "projectPath": "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolution\\CleanSolution\\Application\\Application.csproj"
+              "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolutionEditedProject\\CleanSolution\\Application\\Application.csproj": {
+                "projectPath": "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolutionEditedProject\\CleanSolution\\Application\\Application.csproj"
               }
             }
           }

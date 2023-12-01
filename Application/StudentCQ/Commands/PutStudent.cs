@@ -51,9 +51,10 @@ namespace Application.StudentCQ.Commands
                     }
                 };
 
-                await _DbContext.savechanges();
-                return "SUCCESSFULLY";
+               
             }
+            await _DbContext.savechanges();
+            return "Update Sucessfull";
 
         }
     }

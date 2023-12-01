@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "gNKdZ5XvRNTONfXmyGh9/2f+WYiH9oV4YAaSQ0uo2b9a3VyUOWE6sETTN8g0OMXFikg9nor0rb+VJptUcRJOLg==",
+  "dgSpecHash": "Q0wXH+xU/XCrHTsLLp8oNJ5v+FopyUm9ruN3Y3HBHGT28BxPcDqyikVv2vXuS73vMdtVdy/1Swq98LVAmasQlQ==",
   "success": true,
-  "projectFilePath": "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolution\\CleanSolution\\Application\\Application.csproj",
+  "projectFilePath": "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolutionEditedProject\\CleanSolution\\Application\\Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\sagarkhandate\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\sagarkhandate\\.nuget\\packages\\fluentvalidation\\11.8.1\\fluentvalidation.11.8.1.nupkg.sha512",
     "C:\\Users\\sagarkhandate\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\sagarkhandate\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\sagarkhandate\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\sagarkhandate\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.14\\microsoft.entityframeworkcore.7.0.14.nupkg.sha512",
     "C:\\Users\\sagarkhandate\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.14\\microsoft.entityframeworkcore.abstractions.7.0.14.nupkg.sha512",
     "C:\\Users\\sagarkhandate\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.14\\microsoft.entityframeworkcore.analyzers.7.0.14.nupkg.sha512",

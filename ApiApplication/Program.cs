@@ -1,7 +1,12 @@
 using System;
+using System.ComponentModel.DataAnnotations;
 using System.Reflection;
 using ApiApplication.Controllers;
 using Application;
+using Application.Validator;
+using AutoMapper;
+using Domain.Entities;
+using FluentValidation;
 using Infrastructure;
 using MediatR;
 using Microsoft.AspNetCore.Hosting;
@@ -15,6 +20,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+
 
 //DBContext
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
@@ -34,6 +41,18 @@ builder.Services
 builder.Services.AddMediatR(cfg => {
     cfg.RegisterServicesFromAssemblies(AppDomain.CurrentDomain.GetAssemblies());
 });
+
+
+
+// Automapper
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+
+
+//FluentValidator
+builder.Services.AddValidatorsFromAssemblies(AppDomain.CurrentDomain.GetAssemblies());
+       
+builder.Services.AddScoped<IValidator<Student>, StudentValidator>();
 
 
 var app = builder.Build();

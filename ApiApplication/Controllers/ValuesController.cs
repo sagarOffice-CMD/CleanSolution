@@ -1,6 +1,9 @@
-﻿using Application.PersonCQ.Queries;
+﻿
+using Application.DTO;
+using Application.PersonCQ.Queries;
 using Application.StudentCQ.Commands;
 using Domain.Entities;
+using FluentValidation;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics.Metrics;
 
@@ -10,13 +13,19 @@ namespace ApiApplication.Controllers
 {
     public class ValuesController : ApiController
     {
+        private readonly IValidator<Student> _validator;
+        public ValuesController(IValidator<Student> validator)
+        {
+                _validator = validator;
+        }
 
 
         // GET: api/<ValuesController>
         [HttpGet]
-        public async Task<IEnumerable<Student>> Get()
+        public async Task<IActionResult> GetAll()
         {
-            return await Mediator.Send(new GetsStudent());
+            
+            return Ok(await Mediator.Send(new GetsStudent()));
         }
 
 
@@ -24,9 +33,16 @@ namespace ApiApplication.Controllers
 
         // POST api/<ValuesController>
         [HttpPost]
-        public async Task<string> poststudent([FromBody] PostStudent student)
+        public async Task<IActionResult> poststudent([FromBody] PostStudent student)
         {
-            return await Mediator.Send(student);
+
+            var result = await  _validator.ValidateAsync(student);
+            if (result != null)
+            {
+                return BadRequest(result.Errors);
+            }
+
+            return Ok(await Mediator.Send(student));
 
         }
       
@@ -38,6 +54,7 @@ namespace ApiApplication.Controllers
         [HttpPut]
         public async Task<string> PutStudent( [FromBody] GetStudentById Updatestudent)
         {
+            
             return await Mediator.Send(Updatestudent);
         }
 
@@ -53,11 +70,14 @@ namespace ApiApplication.Controllers
             
         }
 
-        [HttpGet("{GetById}")]
-        public async Task<string> GetStudentById([FromBody] GetById GetStudentById)
+        [HttpGet("id")]
+        public async Task<IActionResult> GetStudentById(int id)
         {
-            return await Mediator.Send(GetStudentById);
+            var st= await Mediator.Send(new GetById{ Id=id});
+            return Ok(st);
+
 
         }
+ 
     }
 }

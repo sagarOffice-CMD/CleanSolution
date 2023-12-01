@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolution\\CleanSolution\\Domain\\Domain.csproj",
+      "projectUniqueName": "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolutionEditedProject\\CleanSolution\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolution\\CleanSolution\\Domain\\Domain.csproj",
+      "projectPath": "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolutionEditedProject\\CleanSolution\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\sagarkhandate\\.nuget\\packages\\",
-      "outputPath": "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolution\\CleanSolution\\Domain\\obj\\",
+      "outputPath": "D:\\dayuser\\sagar khandate\\personal\\c#\\CleanSolutionEditedProject\\CleanSolution\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sagarkhandate\\AppData\\Roaming\\NuGet\\NuGet.Config",

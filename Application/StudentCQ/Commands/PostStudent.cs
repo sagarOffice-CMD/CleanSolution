@@ -1,4 +1,6 @@
-﻿using Domain.Entities;
+﻿using AutoMapper;
+using Domain.Entities;
+using Application.DTO;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -12,48 +14,50 @@ namespace Application.StudentCQ.Commands
 {
     public class PostStudent:IRequest<string>
     {
-        public int Id { get; set; }
-        public string? Name { get; set; }
-        public string? Email { get; set; }
-       
-
-
-
-        public string? CourseName { get; set; }
-       
+        public AddStudentDTO AddStudentDTO { get; set; }
     }
 
     public class PostStudentHandler : IRequestHandler<PostStudent, string>
     {
         private readonly IApplicationDbContext _DbContext;
-        public PostStudentHandler(IApplicationDbContext DbContext)
+        private IMapper _mapper;
+
+        public PostStudentHandler(IApplicationDbContext DbContext, IMapper mapper)
         {
             _DbContext = DbContext;
+            _mapper = mapper;
         }
-
         public async Task<string> Handle(PostStudent request, CancellationToken cancellationToken)
         {
-            Student student = new()
-            {
-                Name = request.Name,
-                Email = request.Email,
-               
+            //Student student = new()
+            //{
+            //    Name = request.Name,
+            //    Email = request.Email,
 
-            };
-            Course course = new Course()
-            {
-                CourseName = request.CourseName
-            };
-          
 
-            _DbContext.Student.Add(student);
-            _DbContext.Course.Add(course);
+            //};
+            //Course course = new Course()
+            //{
+            //    CourseName = request.CourseName
+            //};
 
+
+            //_DbContext.Student.Add(student);
+            //_DbContext.Course.Add(course);
+
+            //await _DbContext.savechanges();
+            //return "Posted complete";
+
+            var result = _mapper.Map<Student>(request.AddStudentDTO);
+
+            await _DbContext.Student.AddAsync(result);
             await _DbContext.savechanges();
             return "Posted complete";
         }
 
+
     }
-
-
 }
+
+
+
